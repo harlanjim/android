@@ -24,8 +24,8 @@
   <project path="android" name="android" remote="ls" revision="jb3" />
   <project path="abi/cpp" name="platform/abi/cpp" />
   <project path="bionic" name="android_bionic" remote="ls" revision="jb3" />
-  <project path="bootable/diskinstaller" name="android_bootable_diskinstaller" remote="cm" revision="cm-10.2" />
-  <project path="bootable/recovery" name="android_bootable_recovery" remote="cm" revision="cm-10.2" />
+  <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
+  <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
   <project path="dalvik" name="android_dalvik" remote="cm" revision="cm-10.2" />
   <project path="development" name="android_development" remote="cm" revision="cm-10.2" />
   <project path="device/common" name="android_device_common" remote="cm" revision="cm-10.2" />
@@ -163,6 +163,7 @@
   <project path="external/quake" name="platform/external/quake" />
   <project path="external/regex-re2" name="platform/external/regex-re2" />
   <project path="external/replicaisland" name="platform/external/replicaisland" />
+  <project path="external/robolectric" name="platform/external/robolectric" />
   <project path="external/safe-iop" name="platform/external/safe-iop" />
   <project path="external/sepolicy" name="android_external_sepolicy" remote="cm" revision="cm-10.2" />
   <project path="external/skia" name="android_external_skia" remote="cm" revision="cm-10.2" />
@@ -179,6 +180,7 @@
   <project path="external/svox" name="platform/external/svox" />
   <project path="external/tagsoup" name="platform/external/tagsoup" />
   <project path="external/tcpdump" name="platform/external/tcpdump" />
+  <project path="external/timezonepicker-support" name="platform/external/timezonepicker-support" />
   <project path="external/tinyalsa" name="platform/external/tinyalsa" />
   <project path="external/tinyxml" name="platform/external/tinyxml" />
   <project path="external/tinyxml2" name="platform/external/tinyxml2" />
@@ -188,7 +190,6 @@
   <project path="external/webkit" name="android_external_webkit" remote="cm" revision="cm-10.2" />
   <project path="external/webp" name="platform/external/webp" />
   <project path="external/webrtc" name="platform/external/webrtc" />
-  <project path="external/wpa_supplicant_6" name="platform/external/wpa_supplicant_6" />
   <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="cm" revision="cm-10.2" />
   <project path="external/wpa_supplicant_8_ti" name="android_external_wpa_supplicant_8_ti" remote="cm" revision="cm-10.2" />
   <project path="external/xmlwriter" name="platform/external/xmlwriter" />
@@ -280,6 +281,7 @@
   <project path="packages/apps/PerformanceControl" name="android_packages_apps_PerformanceControl" remote="ls" revision="jb3" />
   <project path="packages/apps/Phone" name="android_packages_apps_Phone" remote="ls" revision="jb3" />
   <project path="packages/apps/Provision" name="android_packages_apps_Provision" remote="cm" revision="cm-10.2" />
+  <project path="packages/apps/SamsungServiceMode" name="android_packages_apps_SamsungServiceMode" remote="cm" revision="cm-10.2" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="ls" revision="jb3" />
   <project path="packages/apps/SoundRecorder" name="android_packages_apps_SoundRecorder" remote="cm" revision="cm-10.2" />
   <project path="packages/apps/Stk" name="android_packages_apps_Stk" remote="cm" revision="cm-10.2" />
@@ -363,18 +365,18 @@
   <project path="vendor/asus" name="proprietary_vendor_asus" remote="tm" revision="cm-10.2" />
   <project path="vendor/bn" name="proprietary_vendor_bn" remote="tm" revision="cm-10.2" />
   <project path="vendor/broadcom" name="proprietary_vendor_broadcom" remote="tm" revision="cm-10.2" />
-  <project path="vendor/elan" name="proprietary_vendor_elan" remote="tm" revision="cm-10.2" />
+  <project path="vendor/elan" name="proprietary_vendor_elan" remote="tm" revision="cm-10.1" />
   <project path="vendor/imgtec" name="proprietary_vendor_imgtec" remote="tm" revision="cm-10.2" />
   <project path="vendor/invensense" name="proprietary_vendor_invensense" remote="tm" revision="cm-10.2" />
   <project path="vendor/liquid" name="android_vendor_liquid" remote="ls" revision="jb3" />
   <project path="vendor/lge" name="android_vendor_lge" remote="ls" revision="jb3" />
   <project path="vendor/motorola" name="proprietary_vendor_motorola" remote="tm" revision="cm-10.2" />
-  <project path="vendor/nvidia" name="proprietary_vendor_nvidia" remote="tm" revision="cm-10.2" />
+  <project path="vendor/nvidia" name="proprietary_vendor_nvidia" remote="tm" revision="cm-10.1" />
   <project path="vendor/nxp" name="proprietary_vendor_nxp" remote="tm" revision="cm-10.2" />
   <project path="vendor/samsung" name="proprietary_vendor_samsung" remote="ls" revision="jb3" />
   <project path="vendor/widevine" name="proprietary_vendor_widevine" remote="tm" revision="cm-10.2" />
   <project path="vendor/tmobile/apps/ThemeChooser" name="themes-platform-vendor-tmobile-apps-ThemeChooser" remote="cm" revision="cm-10.2" />
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="android_vendor_tmobile_libs_com.tmobile.themes" remote="cm" revision="cm-10.2" />
   <project path="vendor/tmobile/providers/ThemeManager" name="android_vendor_tmobile_providers_ThemeManager" remote="cm" revision="cm-10.2" />
-  <project path="vendor/tmobile/products/themes" name="android_vendor_tmobile_products_themes" remote="cm" revision="cm-10.2" />
+  <project path="vendor/tmobile/products/themes" name="android_vendor_tmobile_products_themes" remote="cm" revision="cm-10.1" />
 </manifest>
